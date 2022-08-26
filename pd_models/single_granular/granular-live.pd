@@ -1,4 +1,4 @@
-#N canvas 1 0 1105 872 12;
+#N canvas 1 0 1439 872 12;
 #X obj 521 660 delwrite~ b1 5000;
 #X obj 53 558 vd~ b1;
 #X obj 110 388 phasor~;
@@ -49,30 +49,30 @@
 #X text 413 756 www.pd-tutorial.com;
 #X text 430 729 Johannes Kreidler;
 #X text 455 434 phase shift;
-#X obj 720 219 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
-#000000 #000000;
-#X msg 686 260 9000;
-#X msg 748 257 21;
-#X obj 664 291 s window;
-#X obj 754 293 s transp;
+#X obj 566 80 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000;
+#X msg 532 121 9000;
+#X msg 594 118 21;
+#X obj 510 152 s window;
+#X obj 600 154 s transp;
 #X obj 132 160 r window;
 #X obj 300 196 r transp;
-#X text 707 187 COOL;
+#X text 553 48 COOL;
 #X obj 276 662 hsl 128 15 1 100000 1 0 empty empty empty -2 -8 0 10
 #fcfcfc #000000 #000000 0 1;
 #X floatatom 317 695 7 0 0 0 - - - 0;
 #X obj 207 709 lop~ 250;
 #X floatatom 39 271 5 0 0 0 - - - 0;
-#X obj 697 394 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#X obj 543 255 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
 #000000 #000000;
-#X obj 641 466 s window;
-#X obj 731 468 s transp;
-#X msg 725 432 16;
-#X msg 663 435 8575;
-#X msg 804 432 396;
-#X obj 810 468 s filter;
+#X obj 487 327 s window;
+#X obj 577 329 s transp;
+#X msg 571 293 16;
+#X msg 509 296 8575;
+#X msg 650 293 396;
+#X obj 656 329 s filter;
 #X obj 271 628 r filter;
-#X text 678 360 CAT PURR;
+#X text 524 221 CAT PURR;
 #X obj 674 589 adc~;
 #X obj 663 749 *~;
 #X obj 722 783 hsl 128 15 0 1 0 0 empty empty vol -2 -8 0 10 #dfdfdf
@@ -99,8 +99,28 @@
 #000000 #000000 0 1;
 #X obj 203 807 dac~;
 #X obj 203 747 *~;
-#X obj 838 292 s filter;
-#X msg 832 256 5000;
+#X obj 684 153 s filter;
+#X msg 678 117 5000;
+#X obj 852 267 hsl 128 15 0 1 0 0 empty empty cold -2 -8 0 10 #c6feff
+#000000 #000000 0 1;
+#X floatatom 849 288 5 0 0 0 - - - 0;
+#X obj 789 318 exp;
+#X obj 789 342 - 1;
+#X obj 789 366 / 1.7;
+#X obj 789 390 * 10000;
+#X floatatom 789 438 7 0 0 0 - - - 0;
+#X obj 789 464 s filter;
+#X obj 869 386 * 9000;
+#X obj 869 410 + 100;
+#X floatatom 869 434 5 0 0 0 - - - 0;
+#X obj 869 336 - 1;
+#X obj 869 360 * -1;
+#X obj 870 466 s window;
+#X obj 939 336 * 17;
+#X obj 939 360 + 13;
+#X floatatom 939 384 5 0 0 0 - - - 0;
+#X obj 939 410 s transp;
+#X obj 789 414 + 60;
 #X connect 1 0 9 0;
 #X connect 2 0 3 0;
 #X connect 2 0 6 0;
@@ -187,3 +207,21 @@
 #X connect 85 0 84 1;
 #X connect 87 0 84 0;
 #X connect 89 0 88 0;
+#X connect 90 0 91 0;
+#X connect 91 0 92 0;
+#X connect 91 0 101 0;
+#X connect 91 0 104 0;
+#X connect 92 0 93 0;
+#X connect 93 0 94 0;
+#X connect 94 0 95 0;
+#X connect 95 0 108 0;
+#X connect 96 0 97 0;
+#X connect 98 0 99 0;
+#X connect 99 0 100 0;
+#X connect 100 0 103 0;
+#X connect 101 0 102 0;
+#X connect 102 0 98 0;
+#X connect 104 0 105 0;
+#X connect 105 0 106 0;
+#X connect 106 0 107 0;
+#X connect 108 0 96 0;
