@@ -28,7 +28,7 @@
 #X obj 443 300 + 0;
 #X obj 538 344 loadbang;
 #X obj 376 431 dac~ 27;
-#X obj 240 445 *~ 1;
+#X obj 240 462 *~ 1;
 #X obj 269 355 * -1;
 #X obj 269 379 + 1;
 #X obj 269 408 * 80;
@@ -312,7 +312,6 @@
 #X connect 9 0 8 0;
 #X connect 10 0 49 0;
 #X connect 10 1 49 0;
-#X connect 11 0 18 0;
 #X connect 12 0 13 0;
 #X connect 13 0 1 0;
 #X connect 16 0 4 0;
