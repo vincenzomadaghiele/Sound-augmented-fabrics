@@ -1,4 +1,4 @@
-#N canvas 63 63 790 574 12;
+#N canvas 62 62 790 574 12;
 #X obj 158 149 snapshot~;
 #X obj 228 89 loadbang;
 #X obj 158 94 adc~ 3;
@@ -25,7 +25,7 @@
 #X msg 282 188 28;
 #X obj 158 117 lop~ 0.1;
 #X text 250 240 simulated env temp;
-#X obj 228 116 metro 250;
+#X obj 228 116 metro 100;
 #X connect 0 0 4 0;
 #X connect 1 0 26 0;
 #X connect 2 0 24 0;
