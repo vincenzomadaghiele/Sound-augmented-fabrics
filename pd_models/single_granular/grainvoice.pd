@@ -1,4 +1,4 @@
-#N canvas 59 14 782 730 10;
+#N canvas 35 31 782 730 10;
 #X obj 353 282 vline~;
 #X obj 337 493 tabread4~ source-array;
 #X obj 197 372 *~ 2048;
@@ -27,7 +27,7 @@
 #X obj 410 131 s \$0-mystart;
 #X obj 353 448 r \$0-mystart;
 #X obj 376 342 r \$0-mypitch;
-#X obj 319 550 throw~ bus;
+#X obj 321 550 throw~ bus;
 #X obj 316 72 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000;
 #X connect 0 0 2 0;

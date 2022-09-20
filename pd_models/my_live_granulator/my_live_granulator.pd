@@ -1,0 +1,58 @@
+#N canvas 91 28 748 492 12;
+#X obj 123 88 adc~;
+#X obj 123 112 delwrite~ voice 5000;
+#X obj 319 88 hsl 128 15 0 3000 0 0 empty empty grain\\\ dur -2 -8
+0 10 #feffc6 #000000 #000000 0 1;
+#X obj 123 147 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
+#X obj 316 131 s grain_dur;
+#X obj 319 169 hsl 128 15 0 5000 0 0 empty empty grain\\\ start -2
+-8 0 10 #c6ffc7 #000000 #000000 0 1;
+#X obj 316 212 s grain_start;
+#X obj 320 264 hsl 128 15 0 2 0 0 empty empty grain\\\ pitch -2 -8
+0 10 #ffe3c6 #000000 #000000 0 1;
+#X obj 317 306 s grain_pitch;
+#X obj 475 264 hsl 128 15 0 100 0 0 empty empty random\\\ pitch -2
+-8 0 10 #ff0400 #000000 #000000 0 1;
+#X floatatom 472 283 5 0 0 0 - - - 0;
+#X obj 472 305 s random_pitch;
+#X floatatom 317 284 5 0 0 0 - - - 0;
+#X floatatom 316 189 5 0 0 0 - - - 0;
+#X obj 476 170 hsl 128 15 0 500 0 0 empty empty random\\\ start -2
+-8 0 10 #00ff04 #000000 #000000 0 1;
+#X floatatom 473 190 5 0 0 0 - - - 0;
+#X obj 473 213 s random_start;
+#X floatatom 316 108 5 0 0 0 - - - 0;
+#X obj 123 258 catch~ buss;
+#X obj 122 336 tanh~;
+#X obj 122 364 dac~;
+#X msg 123 194 next \$1;
+#X obj 174 336 tanh~;
+#X obj 123 167 metro 100;
+#X obj 123 221 clone simple_grain 60;
+#X obj 123 284 rev2~ 100 30 3000 20;
+#X obj 123 308 *~ 0.2;
+#X obj 174 308 *~ 0.2;
+#X connect 0 0 1 0;
+#X connect 2 0 17 0;
+#X connect 3 0 23 0;
+#X connect 5 0 13 0;
+#X connect 7 0 12 0;
+#X connect 9 0 10 0;
+#X connect 10 0 11 0;
+#X connect 12 0 8 0;
+#X connect 13 0 6 0;
+#X connect 14 0 15 0;
+#X connect 15 0 16 0;
+#X connect 17 0 4 0;
+#X connect 18 0 25 0;
+#X connect 18 0 19 0;
+#X connect 18 0 22 0;
+#X connect 19 0 20 0;
+#X connect 21 0 24 0;
+#X connect 22 0 20 1;
+#X connect 23 0 21 0;
+#X connect 25 0 26 0;
+#X connect 25 1 27 0;
+#X connect 26 0 19 0;
+#X connect 27 0 22 0;
