@@ -1,1 +1,1 @@
-# Sound-augmented-blanket
+# Sound-augmented-fabrics
