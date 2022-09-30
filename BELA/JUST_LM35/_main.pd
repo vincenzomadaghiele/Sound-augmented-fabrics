@@ -1,8 +1,0 @@
-#N canvas 439 133 294 272 12;
-#X obj 86 96 print inside;
-#X obj 86 123 print outside;
-#X obj 86 62 lm35;
-#X obj 87 151 print Q;
-#X connect 2 0 0 0;
-#X connect 2 1 1 0;
-#X connect 2 2 3 0;

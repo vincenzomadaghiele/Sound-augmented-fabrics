@@ -1,2 +1,0 @@
-#N canvas 99 107 522 419 12;
-#X obj 80 56 vm.live_granulator;
