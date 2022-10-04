@@ -42,8 +42,8 @@
 #X text 199 238 100;
 #X text 156 69 window width;
 #X text 265 120 Transposition (half-steps);
-#X text 528 784 www.pd-tutorial.com;
-#X text 542 766 Johannes Kreidler;
+#X text 605 765 www.pd-tutorial.com;
+#X text 619 747 Johannes Kreidler;
 #X text 366 391 phase shift;
 #X obj 182 92 r window;
 #X obj 324 145 r transp;
@@ -53,9 +53,9 @@
 #X obj 213 673 lop~ 250;
 #X floatatom 182 260 5 0 0 0 - - - 0;
 #X obj 280 627 r filter;
-#X obj 213 766 dac~;
-#X obj 213 706 *~;
-#X obj 213 733 *~ 7;
+#X obj 367 796 dac~;
+#X obj 367 719 *~;
+#X obj 367 769 *~ 7;
 #X obj 525 130 lm35;
 #X floatatom 550 181 5 0 0 0 - - - 0;
 #X obj 594 181 dac~ 29;
@@ -69,7 +69,7 @@
 #X obj 634 592 *~;
 #X obj 573 590 dac~ 27;
 #X obj 634 618 *~ 1;
-#X text 416 748 real-time granulator PD patch from:;
+#X text 493 729 real-time granulator PD patch from:;
 #N canvas 63 63 422 335 mapping 0;
 #X obj 56 229 - 1;
 #X obj 56 253 * -1;
@@ -136,6 +136,7 @@
 #X connect 17 0 9 0;
 #X connect 17 0 12 0;
 #X restore 550 205 pd sonification-parameters;
+#X obj 367 744 limiter;
 #X connect 0 0 8 0;
 #X connect 1 0 2 0;
 #X connect 1 0 5 0;
@@ -187,7 +188,7 @@
 #X connect 48 0 52 0;
 #X connect 49 0 32 0;
 #X connect 50 0 46 0;
-#X connect 52 0 53 0;
+#X connect 52 0 73 0;
 #X connect 53 0 51 0;
 #X connect 53 0 51 1;
 #X connect 54 2 68 0;
@@ -207,3 +208,4 @@
 #X connect 66 0 63 1;
 #X connect 68 0 55 0;
 #X connect 68 0 56 0;
+#X connect 73 0 53 0;

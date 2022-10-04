@@ -1,8 +1,8 @@
 #N canvas 8 0 705 627 12;
-#X obj 112 483 dac~;
+#X obj 220 527 dac~;
 #X floatatom 132 305 5 0 0 0 - - - 0;
 #X obj 132 329 sig~;
-#X floatatom 172 376 5 0 0 0 - - - 0;
+#X floatatom 173 355 5 0 0 0 - - - 0;
 #X obj 300 122 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1;
 #X obj 300 142 metro 100;
@@ -14,8 +14,8 @@
 #X obj 113 354 vcf~ 4;
 #X obj 164 199 * -100;
 #X obj 164 222 + 300;
-#X text 291 516 DERIVATIVE controls small pitch variations;
-#X text 292 494 ENV FOLLOWER controls synth envelope;
+#X text 320 516 DERIVATIVE controls small pitch variations;
+#X text 321 494 ENV FOLLOWER controls synth envelope;
 #X obj 300 98 loadbang;
 #X obj 519 379 snapshot~;
 #X obj 536 331 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
@@ -28,14 +28,14 @@
 #X obj 72 89 lm35;
 #X obj 519 451 line;
 #X msg 519 427 \$1 100;
-#X obj 375 440 dac~;
-#X obj 375 380 *~;
-#X obj 112 398 lop~ 1000;
+#X obj 375 450 dac~;
+#X obj 375 394 *~;
+#X obj 113 380 lop~ 1000;
 #X obj 131 198 * 2;
-#X obj 112 424 *~;
-#X obj 375 407 *~ 0.1;
+#X obj 220 445 *~;
+#X obj 375 421 *~ 0.1;
 #X obj 70 161 dac~ 29;
-#X obj 112 451 *~ 10;
+#X obj 220 498 *~ 10;
 #X obj 519 403 * 70;
 #X text 182 33 SOUND MODEL 2 - ENVELOPE-FOLLOWER;
 #N canvas 92 92 413 329 mapping 0;
@@ -198,6 +198,7 @@
 #X connect 53 0 46 0;
 #X connect 53 0 46 1;
 #X restore 113 279 pd synth;
+#X obj 220 471 limiter;
 #X connect 1 0 2 0;
 #X connect 2 0 10 1;
 #X connect 3 0 28 1;
@@ -226,7 +227,7 @@
 #X connect 27 0 31 0;
 #X connect 28 0 30 0;
 #X connect 29 0 20 1;
-#X connect 30 0 33 0;
+#X connect 30 0 44 0;
 #X connect 31 0 26 0;
 #X connect 31 0 26 1;
 #X connect 33 0 0 0;
@@ -246,3 +247,4 @@
 #X connect 41 0 38 2;
 #X connect 42 0 38 0;
 #X connect 43 0 10 0;
+#X connect 44 0 33 0;
