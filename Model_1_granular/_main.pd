@@ -56,9 +56,9 @@
 #X obj 367 796 dac~;
 #X obj 367 719 *~;
 #X obj 367 769 *~ 7;
-#X obj 525 130 lm35;
-#X floatatom 550 181 5 0 0 0 - - - 0;
-#X obj 594 181 dac~ 29;
+#X obj 520 145 lm35;
+#X floatatom 520 197 5 0 0 0 - - - 0;
+#X obj 564 197 dac~ 29;
 #X obj 573 442 piezo-interaction;
 #X obj 573 414 adc~;
 #X obj 729 386 loadbang;
@@ -95,10 +95,10 @@
 #X connect 10 0 4 0;
 #X connect 11 0 3 0;
 #X connect 12 0 11 0;
-#X restore 550 154 pd mapping;
+#X restore 520 170 pd mapping;
 #X text 323 30 SOUND MODEL 1 - REAL-TIME GRANULAR SYNTHESIS;
 #X text 168 445 Hanning window;
-#X text 509 102 Temperature data in;
+#X text 518 118 Temperature data in;
 #N canvas 63 63 316 295 sonification-parameters 0;
 #X obj 54 76 exp;
 #X obj 54 100 - 1;
@@ -135,8 +135,10 @@
 #X connect 17 0 0 0;
 #X connect 17 0 9 0;
 #X connect 17 0 12 0;
-#X restore 550 205 pd sonification-parameters;
+#X restore 520 256 pd sonification-parameters;
 #X obj 367 744 limiter;
+#X obj 523 233 hsl 128 15 0 1 0 0 empty empty cold -2 -8 0 10 #c6feff
+#000000 #000000 0 1;
 #X connect 0 0 8 0;
 #X connect 1 0 2 0;
 #X connect 1 0 5 0;
@@ -192,7 +194,7 @@
 #X connect 53 0 51 0;
 #X connect 53 0 51 1;
 #X connect 54 2 68 0;
-#X connect 55 0 72 0;
+#X connect 55 0 74 0;
 #X connect 57 0 65 0;
 #X connect 57 0 62 0;
 #X connect 57 0 64 0;
@@ -209,3 +211,4 @@
 #X connect 68 0 55 0;
 #X connect 68 0 56 0;
 #X connect 73 0 53 0;
+#X connect 74 0 72 0;
