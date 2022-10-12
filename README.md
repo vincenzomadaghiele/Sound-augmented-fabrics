@@ -13,4 +13,4 @@ Our initial results suggest that different auditory augmentation models encourag
 
 
 ### Diagram:
-<img src="https://github.com/vincenzomadaghiele/Sound-augmented-fabrics/blob/main/Docs/Sound-augmented-blanket_diagram.png" alt="blanket_diagram" width="1000"/>
+<img src="https://github.com/vincenzomadaghiele/Sound-augmented-fabrics/blob/main/Docs/Sound-augmented-blanket_diagram.png" alt="blanket_diagram" width="800"/>
