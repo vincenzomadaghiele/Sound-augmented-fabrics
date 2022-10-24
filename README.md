@@ -3,7 +3,7 @@
 This repository contains all the code for the paper ([bib](./experimenting.bib)):
 
 > Vincenzo Madaghiele, Sandra Pauletto.
-> [**Experimenting techniques for sonic implicit interactions: a real time sonification of body-textile heat exchange with sound augmented fabrics**](https://github.com/vincenzomadaghiele/Sound-augmented-fabrics/blob/main/Docs/Madaghiele%20Pauletto%20-%202022%20-%20Experimenting%20techniques%20for%20sonic%20implicit%20interactions.pdf).
+> [**Experimenting techniques for sonic implicit interactions: a real time sonification of body-textile heat exchange with sound augmented fabrics**](https://zenodo.org/record/7243805#.Y1Z0FlJBy3I).
 > In _Proceedings of 2nd Conference on Sonification of Health and Environmental Data (SoniHED)_, October 27-28 2022, Stockholm (SE).
 
 
