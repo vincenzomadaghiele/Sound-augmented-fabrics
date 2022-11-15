@@ -70,7 +70,7 @@
 #X msg 412 213 60;
 #X msg 519 212 0.03;
 #X obj 306 212 adc~;
-#N canvas 121 121 829 590 synth 0;
+#N canvas 121 121 829 590 synth 1;
 #X obj 413 300 *~ 0.2;
 #X obj 300 481 +~;
 #X obj 349 331 +~;
