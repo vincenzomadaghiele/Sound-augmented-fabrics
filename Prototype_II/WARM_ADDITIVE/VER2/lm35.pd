@@ -19,7 +19,7 @@
 #X msg 282 188 28;
 #X obj 158 117 lop~ 0.1;
 #X text 250 240 simulated env temp;
-#X obj 228 116 metro 250;
+#X obj 228 116 metro 100;
 #X connect 0 0 3 0;
 #X connect 1 0 20 0;
 #X connect 2 0 18 0;
