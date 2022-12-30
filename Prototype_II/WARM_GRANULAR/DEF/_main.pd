@@ -1,4 +1,4 @@
-#N canvas 1 0 1439 872 12;
+#N canvas 1 0 744 872 12;
 #X obj 1026 488 piezo-interaction-bela;
 #X obj 1026 461 adc~;
 #X obj 1026 568 *~;
@@ -131,6 +131,8 @@
 #X obj 868 780 dac~ 30;
 #X obj 805 727 *~ 4;
 #X msg 1324 454 0.03;
+#X obj 353 154 loadbang;
+#X msg 353 178 1.6;
 #X connect 0 0 86 0;
 #X connect 0 1 80 0;
 #X connect 1 0 0 0;
@@ -212,7 +214,7 @@
 #X connect 74 0 89 0;
 #X connect 75 2 77 0;
 #X connect 77 0 76 0;
-#X connect 77 0 97 0;
+#X connect 77 0 69 0;
 #X connect 78 0 54 0;
 #X connect 78 0 84 0;
 #X connect 78 1 63 0;
@@ -248,3 +250,4 @@
 #X connect 102 0 71 0;
 #X connect 103 0 3 2;
 #X connect 103 0 0 2;
+#X connect 104 0 105 0;
