@@ -13,7 +13,7 @@ Our initial results suggest that different auditory augmentation models encourag
 
 
 ### Diagram:
-<img src="https://github.com/vincenzomadaghiele/Sound-augmented-fabrics/blob/main/Docs/Sound-augmented-blanket_diagram.png" alt="blanket_diagram" width="700"/>
+<img src="https://github.com/vincenzomadaghiele/Sound-augmented-fabrics/blob/main/SoniHED_experimenting/Docs/Sound-augmented-blanket_diagram.png" alt="blanket_diagram" width="700"/>
 
 ### Video Presentation:
-[![](https://github.com/vincenzomadaghiele/Sound-augmented-fabrics/blob/main/Docs/video_pres.png)](https://www.youtube.com/watch?v=hmD3lzXQ2h0 " Madaghiele and Pauletto - Experimenting techniques for sonic implicit interactions ")
+[![](https://github.com/vincenzomadaghiele/Sound-augmented-fabrics/blob/main/SoniHED_experimenting/Docs/video_pres.png)](https://www.youtube.com/watch?v=hmD3lzXQ2h0 " Madaghiele and Pauletto - Experimenting techniques for sonic implicit interactions ")
