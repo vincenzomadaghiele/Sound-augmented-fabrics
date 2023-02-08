@@ -6,5 +6,4 @@ In this paper we describe the development of two heat and movement-sensitive son
 
 After describing the design rationale and the technical development of the prototypes - in terms of textile fabrication, electronic and sound components - we discuss the results of two user experiments. In the first experiment, two different sonification approaches were evaluated allowing us to select the most appropriate for the task. We used the second experiment to evaluate the prototypes' use-experience. Having two prototypes with different shapes allowed us to discuss how the sonic, tactile and physical aspects of the artifacts blend or contrast, giving rise to differences in interpretation and perception when experiencing the two sonic objects. 
 
-<img src="https://github.com/vincenzomadaghiele/Sound-augmented-fabrics/blob/main/Docs/Sound-augmented-blanket_diagram.png" alt="blanket_diagram" width="700"/>
-
+<img src="https://github.com/vincenzomadaghiele/Sound-augmented-fabrics/blob/main/SMC_heat-sensitive/00_Docs/sound-augmented-fabrics.jpg" alt="sound-augmented-fabrics" width="700"/>
