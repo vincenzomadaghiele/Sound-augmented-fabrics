@@ -13,4 +13,4 @@ The project led to the following publications:
 > [**Experimenting techniques for sonic implicit interactions: a real time sonification of body-textile heat exchange with sound augmented fabrics**](https://zenodo.org/record/7243805#.Y1Z0FlJBy3I).
 > In _Proceedings of 2nd Conference on Sonification of Health and Environmental Data (SoniHED)_, October 27-28 2022, Stockholm (SE).
 
-<img src="https://github.com/vincenzomadaghiele/Sound-augmented-fabrics/blob/main/sonic_fabrics.png" alt="sound-augmented-fabrics" width="400"/>
+<img src="https://github.com/vincenzomadaghiele/Sound-augmented-fabrics/blob/main/sonic_fabrics.png" alt="sound-augmented-fabrics" width="600"/>
