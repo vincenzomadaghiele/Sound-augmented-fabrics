@@ -1,6 +1,6 @@
 # Sound-augmented fabrics
 
-This repository contains the code and information about the sound-augmented fabric prototypes that have been developed in the context of the Sounds for Energy project. 
+This repository contains the code and information about the sound-augmented fabric prototypes that have been developed in the context of the Sounds for Energy project at KTH Royal Institute of Technology. 
 
 The project led to the following publications:
 
