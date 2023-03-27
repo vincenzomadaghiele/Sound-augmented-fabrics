@@ -2,7 +2,12 @@
 
 This repository contains the code and information about the sound-augmented fabric prototypes that have been developed in the context of the Sounds for Energy project. 
 
-The project led to a publication:
+The project led to the following publications:
+
+> Vincenzo Madaghiele, Arife Dila Demir, Sandra Pauletto.
+> [**Heat-sensitive sonic textiles: increasing awareness of the energy we save by wearing warm fabrics**]().
+> In _Proceedings of Sound and Music Computing Conference 2023_, June 12-17 2023, Stockholm (SE).
+
 
 > Vincenzo Madaghiele, Sandra Pauletto.
 > [**Experimenting techniques for sonic implicit interactions: a real time sonification of body-textile heat exchange with sound augmented fabrics**](https://zenodo.org/record/7243805#.Y1Z0FlJBy3I).
